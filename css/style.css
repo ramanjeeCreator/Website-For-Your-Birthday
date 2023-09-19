@@ -3,12 +3,25 @@
     margin: 0;
     box-sizing: border-box;
 }
-html,body {
+
+html,
+body {
     width: 100vw;
     height: 100vh;
 }
 
-body {
+#clickme {
+    position: relative;
+    top: 90vh;
+    text-align: center;
+    font-size: xx-large;
+    background: transparent;
+    color: red;
+}
+
+#bgimg {
+    width: 100vw;
+    height: 100vh;
     background: url('../img/bg.jpg');
     background-size: 100% 100%;
     background-repeat: no-repeat;
